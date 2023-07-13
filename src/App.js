@@ -14,6 +14,7 @@ function App() {
   const [user, setUser] = useState([]);
 
   const addFunc = (event) => {
+    
     setInput(event.target.value);
   };
   const addFunc2 = (event) => {
@@ -138,6 +139,7 @@ function App() {
           {el.name} {el.nameTwo} {el.nameThree}{" "}
         </h1>
       ))}
+<h1>G<h1>
     </div>
   );
 }
